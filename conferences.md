@@ -1,4 +1,17 @@
-# Top Conferences
+## Conferences with Reproducibility Review
+
+* [ECOOP](http://2017.ecoop.org/track/ecoop-2017-Artifacts)
+* [ESEC/FSE](http://esec-fse17.uni-paderborn.de/call_artifacts.php)
+* [HSCC](http://www.cs.ox.ac.uk/conferences/hscc2016/re.html)
+* [ISSTA](http://conf.researchr.org/track/issta-2017/issta-2017-artifacts)
+* [KDD](http://www.kdd.org/kdd2017/calls/view/kdd-2017-call-for-research-papers) -- they have a policy on reproducibility, but I'm not sure if they do a reproducibility evaluation
+* [PLDI](http://pldi17.sigplan.org/track/pldi-2017-artifact)
+* [POPL](http://conf.researchr.org/track/POPL-2017/ArtifactEvaluation)
+* [SAS](http://staticanalysis.org/sas2016/#artifact)
+* [SIGMOD](http://db-reproducibility.seas.harvard.edu/)
+* [SPLASH](http://2016.splashcon.org/track/splash-2016-artifacts)
+
+# Other Top Conferences
 
 * [AAAI](http://www.aaai.org/Conferences/AAAI/aaai17.php)
 * [ACL](http://www.aclweb.org/portal/acl)
@@ -31,16 +44,3 @@
 * [SIGCOMM](http://www.sigcomm.org/)
 * [SIGGRAPH](http://www.siggraph.org/)
 * [SIGGRAPH Asia](https://sa2016.siggraph.org/)
-
-## Conferences with Reproducibility Review
-
-* [ECOOP](http://2017.ecoop.org/track/ecoop-2017-Artifacts)
-* [ESEC/FSE](http://esec-fse17.uni-paderborn.de/call_artifacts.php)
-* [HSCC](http://www.cs.ox.ac.uk/conferences/hscc2016/re.html)
-* [ISSTA](http://conf.researchr.org/track/issta-2017/issta-2017-artifacts)
-* [KDD](http://www.kdd.org/kdd2017/calls/view/kdd-2017-call-for-research-papers) -- they have a policy on reproducibility, but I'm not sure if they do a reproducibility evaluation
-* [PLDI](http://pldi17.sigplan.org/track/pldi-2017-artifact)
-* [POPL](http://conf.researchr.org/track/POPL-2017/ArtifactEvaluation)
-* [SAS](http://staticanalysis.org/sas2016/#artifact)
-* [SIGMOD](http://db-reproducibility.seas.harvard.edu/)
-* [SPLASH](http://2016.splashcon.org/track/splash-2016-artifacts)
