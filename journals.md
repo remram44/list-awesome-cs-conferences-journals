@@ -1,4 +1,9 @@
-# Top Journals
+## Journals with Reproducibility Review
+
+* [SIGMOD](https://sigmod.org/)
+* [ACM TOMS](http://toms.acm.org/)
+
+# Other Top Journals
 
 * [ACM TOMS](http://toms.acm.org/)
 * [ACM Transactions on Algorithms](http://talg.acm.org/)
@@ -55,8 +60,3 @@
 * [Theoretical Computer Science](https://www.journals.elsevier.com/theoretical-computer-science/)
 * [Theory of Computing](http://theoryofcomputing.org/)
 * [VLDB International Journal](http://link.springer.com/journal/778)
-
-## Journals with Reproducibility Review
-
-* [SIGMOD](https://sigmod.org/)
-* [ACM TOMS](http://toms.acm.org/)
