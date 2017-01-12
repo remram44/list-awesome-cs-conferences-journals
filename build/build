@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+
+import io
+from jinja2 import Environment, FileSystemLoader
+import logging
+import os
+import yaml
+
+
+def render(template, filename, data):
+    with io.open('target/%s' % filename, 'w', encoding='utf-8') as fp:
+        for chunk in template.generate(data):
+            fp.write(chunk)
+
+
+def main():
+    template_env = Environment(loader=FileSystemLoader('build/'))
+
+    with open('venues.yaml') as fp:
+        venues = yaml.load(fp)
+    logging.info("Processing %d venues", len(venues))
+
+    with open('tags.yaml') as fp:
+        tags = yaml.load(fp)
+    tags = tags or {}
+    for k, v in tags.iteritems():
+        v['tag'] = k
+        v['venues'] = []
+    logging.info("Loaded %d tags", len(tags))
+
+    conferences = []
+    conferences_repro = []
+    conferences_others = []
+    journals = []
+    journals_repro = []
+    journals_others = []
+
+    for venue in sorted(venues, key=lambda v: v['name']):
+        new_tags = []
+        for tag in venue.get('tags', None) or ():
+            try:
+                new_tags.append(tags[tag])
+            except KeyError:
+                logging.warning("Venue %s has unknown tag %s",
+                                venue['name'], tag)
+            else:
+                tags[tag]['venues'].append(venue)
+        venue['tags'] = new_tags
+
+        if venue['type'] == 'conference':
+            conferences.append(venue)
+            if venue.get('reproducibility-review', False):
+                conferences_repro.append(venue)
+            else:
+                conferences_others.append(venue)
+        elif venue['type'] == 'journal':
+            journals.append(venue)
+            if venue.get('reproducibility-review', False):
+                journals_repro.append(venue)
+            else:
+                journals_others.append(venue)
+
+    logging.info("%d conferences, %d journals",
+                 len(conferences), len(journals))
+
+    if not os.path.isdir('target'):
+        os.mkdir('target')
+
+    report_md = template_env.get_template('report.md.tpl')
+    render(report_md, 'conferences.md', {'title': "Top Conferences",
+                                         'venues': conferences})
+    render(report_md, 'journals.md', {'title': "Top Journals",
+                                      'venues': journals})
+
+    sections_md = template_env.get_template('report_sections.md.tpl')
+    render(sections_md, 'repro-conferences.md',
+           {'sections': [
+               {'title': "Conferences with Reproducibility Review",
+                'venues': conferences_repro},
+               {'title': "Other Top Conferences",
+                'venues': conferences_others}]})
+    render(sections_md, 'repro-journals.md',
+           {'sections': [
+               {'title': "Journals with Reproducibility Review",
+                'venues': journals_repro},
+               {'title': "Other Top Jounals",
+                'venues': journals_others}]})
+
+    if not os.path.isdir('target/tags'):
+        os.mkdir('target/tags')
+
+    tag_md = template_env.get_template('tag.md.tpl')
+    for tag in tags.itervalues():
+        render(tag_md,
+               'tags/%s.md' % tag['tag'],
+               {'tag': tag})
+
+
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
+    main()
