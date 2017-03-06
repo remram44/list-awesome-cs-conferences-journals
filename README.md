@@ -1,3 +1,5 @@
+[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+
 # List of Computer Science Conferences & Journals
 
 A comprehensive list of top computer science conferences and journals, with an enphasis on reproducibility efforts.
