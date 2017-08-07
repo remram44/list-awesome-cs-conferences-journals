@@ -1,9 +1,12 @@
-# List of Computer Science Conferences & Journals
+[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
 
-A comprehensive list of top computer science conferences and journals, with an enphasis on reproducibility efforts.
+# List of  Conferences & Journals with Reproducibility Efforts
 
-## [Conferences](https://github.com/VickySteeves/list-awesome-cs-conferences-journals/blob/reports/conferences.md)
-## [Journals](https://github.com/VickySteeves/list-awesome-cs-conferences-journals/blob/reports/journals.md)
+A comprehensive list of top conferences and journals, with an enphasis on reproducibility efforts.
+
+# Domains
+## [CompSci Conferences](CompSci/conferences.md)
+## [CompSci Journals](CompSci/journals.md)
 
 # Contribute
 
