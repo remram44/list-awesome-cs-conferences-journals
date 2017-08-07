@@ -12,4 +12,4 @@ A comprehensive list of top conferences and journals, with an enphasis on reprod
 
 Please add to this list any journal or conference you think is noteworthy. Another really helpful contribution would be to help me sort both the list of journals and the list of conferences by sub-domain!
 
-In time more attributes will be listed for each item, and machine readable formats will be added. Stay tuned!
+Note that the markdown file on the `reports` branch are auto-generated from the data on the `master` branch. Please don't submit changes to the reports, but rather [edit the data](https://github.com/VickySteeves/list-awesome-cs-conferences-journals/edit/master/venues.yaml) directly!

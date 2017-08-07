@@ -1,0 +1,394 @@
+- name: ECOOP
+  type: conference
+  link: http://2017.ecoop.org/track/ecoop-2017-Artifacts
+  reproducibility-review: true
+- name: ESEC/FSE
+  type: conference
+  link: http://esec-fse17.uni-paderborn.de/call_artifacts.php
+  reproducibility-review: true
+- name: HSCC
+  type: conference
+  link: http://www.cs.ox.ac.uk/conferences/hscc2016/re.html
+  reproducibility-review: true
+- name: ISSTA
+  type: conference
+  link: http://conf.researchr.org/track/issta-2017/issta-2017-artifacts
+  reproducibility-review: true
+- name: KDD
+  type: conference
+  link: http://www.kdd.org/kdd2017/calls/view/kdd-2017-call-for-research-papers
+  reproducibility-review: true
+  comments: |
+    they have a policy on reproducibility, but I'm not sure if they do a reproducibility evaluation
+- name: PLDI
+  type: conference
+  link: http://pldi17.sigplan.org/track/pldi-2017-artifact
+  reproducibility-review: true
+- name: POPL
+  type: conference
+  link: http://conf.researchr.org/track/POPL-2017/ArtifactEvaluation
+  reproducibility-review: true
+- name: SAS
+  type: conference
+  link: http://staticanalysis.org/sas2016/#artifact
+  reproducibility-review: true
+- name: SIGMOD
+  type: conference
+  link: http://db-reproducibility.seas.harvard.edu/
+  reproducibility-review: true
+- name: SPLASH
+  type: conference
+  link: http://2016.splashcon.org/track/splash-2016-artifacts
+  reproducibility-review: true
+- name: AAAI
+  type: conference
+  link: http://www.aaai.org/Conferences/AAAI/aaai17.php
+  reproducibility-review: false
+- name: ACL
+  type: conference
+  link: http://www.aclweb.org/portal/acl
+  reproducibility-review: false
+- name: AISTATS
+  type: conference
+  link: http://www.aaai.org/Conferences/AAAI/aaai17.php
+  reproducibility-review: false
+- name: ASPLOS
+  type: conference
+  link: https://www.ece.cmu.edu/calcm/asplos2016/
+  reproducibility-review: false
+- name: CCGRID
+  type: conference
+  link: https://www.arcos.inf.uc3m.es/wp/ccgrid2017/
+  reproducibility-review: false
+- name: COLING
+  type: conference
+  link: http://wikicfp.com/cfp/servlet/event.showcfp?eventid=50223
+  reproducibility-review: false
+- name: COLT
+  type: conference
+  link: http://www.learningtheory.org/
+  reproducibility-review: false
+- name: CONLL
+  type: conference
+  link: http://www.signll.org/conll
+  reproducibility-review: false
+- name: CVPR
+  type: conference
+  link: http://cvpr2017.thecvf.com/
+  reproducibility-review: false
+- name: EMNLP
+  type: conference
+  link: http://www.aclweb.org/portal/emnlp
+  reproducibility-review: false
+- name: Eurovis
+  type: conference
+  link: http://www.cs.rug.nl/jbi/eurovis2016/
+  reproducibility-review: false
+- name: FOSS4G
+  type: conference
+  link: http://2016.foss4g.org/
+  reproducibility-review: false
+- name: HiPC
+  type: conference
+  link: http://www.hipc.org/
+  reproducibility-review: false
+- name: HPDC
+  type: conference
+  link: http://hpdc.org/
+  reproducibility-review: false
+- name: ICCV
+  type: conference
+  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=57716&copyownerid=92003
+  reproducibility-review: false
+- name: ICLR
+  type: conference
+  link: http://www.iclr.cc/
+  reproducibility-review: false
+- name: ICML
+  type: conference
+  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=84659
+  reproducibility-review: false
+- name: IJCAI
+  type: conference
+  link: https://www.ijcai.org/
+  reproducibility-review: false
+- name: Infovis vast chi
+  type: conference
+  link: http://ieeevis.org/
+  reproducibility-review: false
+- name: IUI
+  type: conference
+  link: https://iui.acm.org/
+  reproducibility-review: false
+- name: NAACL-HLT
+  type: conference
+  link: http://naacl.org/
+  reproducibility-review: false
+- name: NIPS
+  type: conference
+  link: https://nips.cc/
+  reproducibility-review: false
+- name: PDSW-DISCS
+  type: conference
+  link: http://www.pdsw.org/
+  reproducibility-review: false
+- name: PLDI
+  type: conference
+  link: http://conf.researchr.org/home/pldi-2017
+  reproducibility-review: false
+- name: PODC
+  type: conference
+  link: http://www.podc.org/
+  reproducibility-review: false
+- name: POPL
+  type: conference
+  link: http://conf.researchr.org/home/POPL-2017
+  reproducibility-review: false
+- name: SC
+  type: conference
+  link: http://www.supercomp.org/
+  reproducibility-review: false
+- name: SciVis
+  type: conference
+  link: http://ieeevis.org/year/2016/info/call-participation/scivis-papers
+  reproducibility-review: false
+- name: SIGCOMM
+  type: conference
+  link: http://www.sigcomm.org/
+  reproducibility-review: false
+- name: SIGGRAPH
+  type: conference
+  link: http://www.siggraph.org/
+  reproducibility-review: false
+- name: SIGGRAPH Asia
+  type: conference
+  link: https://sa2016.siggraph.org/
+  reproducibility-review: false
+- name: SIGMOD
+  type: journal
+  link: https://sigmod.org/
+  reproducibility-review: true
+- name: ACM TOMS
+  type: journal
+  link: http://toms.acm.org/
+  reproducibility-review: true
+- name: ACM TOMS
+  type: journal
+  link: http://toms.acm.org/
+  reproducibility-review: false
+- name: ACM Transactions on Algorithms
+  type: journal
+  link: http://talg.acm.org/
+  reproducibility-review: false
+- name: ACM Transactions on Database Systems
+  type: journal
+  link: https://tods.acm.org/
+  reproducibility-review: false
+- name: ACM Transactions on Graphics
+  type: journal
+  link: http://tog.acm.org/
+  reproducibility-review: false
+- name: ACM Transactions on Information Systems
+  type: journal
+  link: http://tois.acm.org/
+  reproducibility-review: false
+- name: Advances in Engineering Software
+  type: journal
+  link: https://www.journals.elsevier.com/advances-in-engineering-software
+  reproducibility-review: false
+- name: "CMES: Computer Modeling in Engineering and Sciences"
+  type: journal
+  link: http://www.scimagojr.com/journalsearch.php?q=28642&tip=sid
+  reproducibility-review: false
+- name: Communications of the ACM
+  type: journal
+  link: http://cacm.acm.org/
+  reproducibility-review: false
+- name: Computer Methods in Applied Mechanics and Engineering
+  type: journal
+  link: https://www.journals.elsevier.com/computer-methods-in-applied-mechanics-and-engineering
+  reproducibility-review: false
+- name: Computer Vision and Image Understanding
+  type: journal
+  link: https://www.journals.elsevier.com/computer-vision-and-image-understanding/
+  reproducibility-review: false
+- name: Computer-Aided Design
+  type: journal
+  link: https://www.journals.elsevier.com/computer-aided-design/
+  reproducibility-review: false
+- name: Computers & Chemical Engineering
+  type: journal
+  link: https://www.journals.elsevier.com/computers-and-chemical-engineering
+  reproducibility-review: false
+- name: Data & Knowledge Engineering
+  type: journal
+  link: https://www.journals.elsevier.com/data-and-knowledge-engineering/
+  reproducibility-review: false
+- name: Journal of Database Management
+  type: journal
+  link: http://www.igi-global.com/journal/journal-database-management-jdm/1072
+  reproducibility-review: false
+- name: Data & Knowledge Engineering Journal
+  type: journal
+  link: https://www.journals.elsevier.com/data-and-knowledge-engineering/
+  reproducibility-review: false
+- name: Database and Network Journal
+  type: journal
+  link: http://dl.acm.org/citation.cfm?id=J239
+  reproducibility-review: false
+- name: Distributed and Parallel Databases
+  type: journal
+  link: http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10619
+  reproducibility-review: false
+- name: Environmental Modelling & Software
+  type: journal
+  link: https://www.journals.elsevier.com/environmental-modelling-and-software/
+  reproducibility-review: false
+- name: Foundations and Trends in Machine Learning
+  type: journal
+  link: http://dl.acm.org/citation.cfm?id=2185815
+  reproducibility-review: false
+- name: Foundations and Trends in Theoretical Computer Science
+  type: journal
+  link: http://www.nowpublishers.com/TCS
+  reproducibility-review: false
+- name: Geoinformatica
+  type: journal
+  link: http://link.springer.com/journal/10707
+  reproducibility-review: false
+- name: IBM Journal of Research and Development
+  type: journal
+  link: http://researchweb.watson.ibm.com/journal/rdindex.html
+  reproducibility-review: false
+- name: IEEE Communications Magazine
+  type: journal
+  link: http://www.comsoc.org/commag
+  reproducibility-review: false
+- name: IEEE Journal on Selected Areas in Communication
+  type: journal
+  link: http://www.comsoc.org/jsac
+  reproducibility-review: false
+- name: IEEE Transactions on Antennas and Propagation
+  type: journal
+  link: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8
+  reproducibility-review: false
+- name: IEEE Transactions on Communications
+  type: journal
+  link: http://www.comsoc.org/tc
+  reproducibility-review: false
+- name: IEEE Transactions on Information Theory
+  type: journal
+  link: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18
+  reproducibility-review: false
+- name: IEEE Transactions on Software Engineering
+  type: journal
+  link: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=32
+  reproducibility-review: false
+- name: IEEE-ACM Transactions on Networking
+  type: journal
+  link: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90
+  reproducibility-review: false
+- name: IEICE Data Engineering
+  type: journal
+  link: https://search.ieice.org/iss/
+  reproducibility-review: false
+- name: Information & Software Technology
+  type: journal
+  link: https://www.journals.elsevier.com/information-and-software-technology/
+  reproducibility-review: false
+- name: Information Processing Letters
+  type: journal
+  link: https://www.journals.elsevier.com/information-processing-letters/
+  reproducibility-review: false
+- name: Information Systems
+  type: journal
+  link: http://onlinelibrary.wiley.com/journal/10.1111/%28ISSN%291365-2575
+  reproducibility-review: false
+- name: International Journal of Information Technology
+  type: journal
+  link: http://www.worldscientific.com/worldscinet/ijitdm
+  reproducibility-review: false
+- name: International Journal of Computer & Information Sciences
+  type: journal
+  link: http://www.acisinternational.org/ijcis.html
+  reproducibility-review: false
+- name: International Journal of Geographic Information Systems
+  type: journal
+  link: http://www.tandfonline.com/loi/tgis20
+  reproducibility-review: false
+- name: International Journal of Intelligent & Cooperative Info. Systems
+  type: journal
+  link: http://www.worldscientific.com/worldscinet/ijcis
+  reproducibility-review: false
+- name: "Journal of Intell. Info Systems: Integrating AI and DB Tech"
+  type: journal
+  link: http://www.springer.com/computer/database+management+%26+information+retrieval/journal/10844
+  reproducibility-review: false
+- name: Journal of Systems Integration
+  type: journal
+  link: http://www.si-journal.org/
+  reproducibility-review: false
+- name: Journal of Data Mining & Knowledge Discovery
+  type: journal
+  link: https://link.springer.com/journal/10618
+  reproducibility-review: false
+- name: Journal of Combinatorics, Information and System Sciences
+  type: journal
+  link: http://www.worldcat.org/title/journal-of-combinatorics-information-system-sciences/oclc/3727676
+  reproducibility-review: false
+- name: Journal of Computer and System Sciences
+  type: journal
+  link: https://www.journals.elsevier.com/journal-of-computer-and-system-sciences
+  reproducibility-review: false
+- name: Journal of Data Warehousing
+  type: journal
+  link: http://www.igi-global.com/journal/international-journal-data-warehousing-mining/1085
+  reproducibility-review: false
+- name: Journal of Information Processing and Cybernetics
+  type: journal
+  link: http://dl.acm.org/citation.cfm?id=J260
+  reproducibility-review: false
+- name: Journal of Machine Learning Research
+  type: journal
+  link: http://www.jmlr.org/
+  reproducibility-review: false
+- name: Journal of the ACM
+  type: journal
+  link: http://jacm.acm.org/
+  reproducibility-review: false
+- name: Journal of the American Society for Information Science
+  type: journal
+  link: http://onlinelibrary.wiley.com/journal/10.1002/%28ISSN%291532-2890
+  reproducibility-review: false
+- name: Journal on Digital Libraries
+  type: journal
+  link: http://link.springer.com/journal/799
+  reproducibility-review: false
+- name: SIAM Journal on Computing
+  type: journal
+  link: https://www.siam.org/journals/sicomp.php
+  reproducibility-review: false
+- name: SIAM Journal on Discrete Math
+  type: journal
+  link: https://www.siam.org/journals/sidma.php
+  reproducibility-review: false
+- name: SIAM Journal on Scientific Computing
+  type: journal
+  link: https://www.siam.org/journals/sisc.php
+  reproducibility-review: false
+- name: SIGMOD Record
+  type: journal
+  link: https://sigmodrecord.org/
+  reproducibility-review: false
+- name: Theoretical Computer Science
+  type: journal
+  link: https://www.journals.elsevier.com/theoretical-computer-science/
+  reproducibility-review: false
+- name: Theory of Computing
+  type: journal
+  link: http://theoryofcomputing.org/
+  reproducibility-review: false
+- name: VLDB International Journal
+  type: journal
+  link: http://link.springer.com/journal/778
+  reproducibility-review: false
