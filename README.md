@@ -1,5 +1,3 @@
-[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
-
 # List of  Conferences & Journals with Reproducibility Efforts
 
 A comprehensive list of top conferences and journals, with an enphasis on reproducibility efforts.
